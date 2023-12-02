@@ -61,8 +61,8 @@ Section:NewButton("Check Key", "This Will Check The Key You Enter", function()
         end
 end)  
 
-Section:NewButton("Copy Link", "ButtonInfo", function()
-          		setclipboard("Link here") --Put The Link Here
+Section:NewButton("Discord Copy Link", "ButtonInfo", function()
+          		setclipboard("https://discord.com/invite/rR75gVJk") --Put The Link Here
           OrionLib:MakeNotification({
                 Name = "Copied Link!",
                 Content = "Success Copied Link.",
